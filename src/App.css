@@ -1,0 +1,96 @@
+body {
+  padding: 100px 250px;
+  background: #e5e5e5;
+  text-align: center;
+  font-family: 'Slabo 27px', serif;
+}
+
+.item {
+background: #f6f6f6;
+display: flex;
+flex-direction: row;
+}
+
+.item > div {
+  /* display: block; */
+  padding: 5px 0 20px 0;
+  text-align: center;
+  width: 50%;
+  min-height: 60vh;
+}
+
+.itemlist {
+  border: 50px solid #3359db;
+}
+
+.header {
+  font-variant: unset;
+  color: #3359db;
+  text-transform: uppercase;
+}
+
+table {
+  width: 100%;
+  color: #455aa0;
+  border-spacing: 0px !important;
+  font-size: 20px;
+}
+
+tr td {
+  padding: 15px;
+}
+td {
+  border: none;
+  border-top: 1px solid #3359db;
+  text-align: left;
+  padding: 10px;
+  border-left: 1px solid #3359db;
+}
+
+hr.list {
+  border: 2px solid #3359db;
+  width: 30px;
+  padding: auto;
+  margin: auto;
+}
+
+hr {
+  border: 1px solid #3359db;
+  margin: auto;
+}
+
+/* to style the todo form component */
+.todo-form {
+  display: flex inline;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  text-align: center;
+  margin: auto;
+  margin-top: 60px;
+  background: #3359db;
+}
+
+input[type=text] {
+  margin: auto;
+  margin-top: 80px;
+  padding: 10px;
+  background: #f6f6f6;
+  border-color: #3359db;
+  width: 70%;
+  font-size: 25px;
+}
+
+input[type=submit] {
+  margin: auto;
+  margin-top: 50px;
+  width: 200px;
+  padding: 5px;
+  font-size: 40px;
+  background: #3359db;
+  color: #f6f6f6;
+  font-family: 'Slabo 27px', serif;
+}
